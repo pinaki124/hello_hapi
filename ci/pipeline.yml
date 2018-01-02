@@ -12,6 +12,8 @@ resources:
     source: &repo-source
       uri: https://github.com/pinaki124/hello_hapi.git
       branch: master
+      username: pinaki124
+      password: 1qaz1qaz
   - name: dependency-cache
     type: npm-cache
     source:
